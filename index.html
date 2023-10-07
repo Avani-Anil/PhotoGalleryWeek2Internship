@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="gallery">
+    <h1>My Photo Gallery</h1>
+    <div class="grid-item">
+      <img src="image1.jpg" alt="Image 1" onclick="openLightbox('image1.jpg')">
+    </div>
+    <div class="grid-item">
+      <img src="image2.jpg" alt="Image 2" onclick="openLightbox('image2.jpg')">
+    </div>
+    <div class="grid-item">
+        <img src="image3.jpg" alt="Image 3" onclick="openLightbox('image3.jpg')">
+    </div>
+    <div class="grid-item">
+        <img src="image4.jpg" alt="Image 4" onclick="openLightbox('image4.jpg')">
+    </div>
+    <div class="grid-item">
+        <img src="image5.jpg" alt="Image 5" onclick="openLightbox('image5.jpg')">
+    </div>
+    <div class="grid-item">
+        <img src="image6.jpg" alt="Image 6" onclick="openLightbox('image6.jpg')">
+    </div>
+    <div class="grid-item">
+        <img src="image7.jpg" alt="Image 7" onclick="openLightbox('image7.jpg')">
+    </div>
+    <div class="grid-item">
+        <img src="image8.jpg" alt="Image 8" onclick="openLightbox('image8.jpg')">
+    </div>
+    <div class="grid-item">
+        <img src="image9.jpg" alt="Image 9" onclick="openLightbox('image9.jpg')">
+    </div>
+    <div class="grid-item">
+        <img src="image10.jpg" alt="Image 10" onclick="openLightbox('image10.jpg')">
+    </div>
+    <div class="grid-item">
+        <img src="image11.jpg" alt="Image 11" onclick="openLightbox('image11.jpg')">
+    </div>
+    <div class="grid-item">
+        <img src="image12.jpg" alt="Image 12" onclick="openLightbox('image12.jpg')">
+    </div>
+  </div>
+
+  <div id="lightbox" class="hidden">
+    <span class="close-button" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-image" src="" alt="">
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
